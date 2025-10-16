@@ -19,12 +19,13 @@ const People = () => {
   const { toast } = useToast();
   const [searchQuery, setSearchQuery] = useState("");
   const [people] = useState<Person[]>([
-    { id: 1, name: "John Smith", role: "Employee", email: "john.smith@company.com", phone: "+1 234-567-8901", attendanceRate: 95 },
-    { id: 2, name: "Sarah Johnson", role: "Manager", email: "sarah.j@company.com", phone: "+1 234-567-8902", attendanceRate: 98 },
-    { id: 3, name: "Mike Davis", role: "Employee", email: "mike.d@company.com", phone: "+1 234-567-8903", attendanceRate: 87 },
-    { id: 4, name: "Emily Brown", role: "Supervisor", email: "emily.b@company.com", phone: "+1 234-567-8904", attendanceRate: 92 },
-    { id: 5, name: "David Wilson", role: "Employee", email: "david.w@company.com", phone: "+1 234-567-8905", attendanceRate: 89 },
-    { id: 6, name: "Lisa Anderson", role: "Employee", email: "lisa.a@company.com", phone: "+1 234-567-8906", attendanceRate: 94 },
+    { id: 1, name: "Aanand Mhetre", role: "Employee", email: "aanand.mhetre@company.com", phone: "+91 98765-43210", attendanceRate: 96 },
+    { id: 2, name: "John Smith", role: "Employee", email: "john.smith@company.com", phone: "+1 234-567-8901", attendanceRate: 95 },
+    { id: 3, name: "Sarah Johnson", role: "Manager", email: "sarah.j@company.com", phone: "+1 234-567-8902", attendanceRate: 98 },
+    { id: 4, name: "Mike Davis", role: "Employee", email: "mike.d@company.com", phone: "+1 234-567-8903", attendanceRate: 87 },
+    { id: 5, name: "Emily Brown", role: "Supervisor", email: "emily.b@company.com", phone: "+1 234-567-8904", attendanceRate: 92 },
+    { id: 6, name: "David Wilson", role: "Employee", email: "david.w@company.com", phone: "+1 234-567-8905", attendanceRate: 89 },
+    { id: 7, name: "Lisa Anderson", role: "Employee", email: "lisa.a@company.com", phone: "+1 234-567-8906", attendanceRate: 94 },
   ]);
 
   const filteredPeople = people.filter(person =>

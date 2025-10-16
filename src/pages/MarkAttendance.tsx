@@ -15,12 +15,13 @@ interface Person {
 const MarkAttendance = () => {
   const { toast } = useToast();
   const [people, setPeople] = useState<Person[]>([
-    { id: 1, name: "John Smith", role: "Employee" },
-    { id: 2, name: "Sarah Johnson", role: "Manager" },
-    { id: 3, name: "Mike Davis", role: "Employee" },
-    { id: 4, name: "Emily Brown", role: "Supervisor" },
-    { id: 5, name: "David Wilson", role: "Employee" },
-    { id: 6, name: "Lisa Anderson", role: "Employee" },
+    { id: 1, name: "Aanand Mhetre", role: "Employee" },
+    { id: 2, name: "John Smith", role: "Employee" },
+    { id: 3, name: "Sarah Johnson", role: "Manager" },
+    { id: 4, name: "Mike Davis", role: "Employee" },
+    { id: 5, name: "Emily Brown", role: "Supervisor" },
+    { id: 6, name: "David Wilson", role: "Employee" },
+    { id: 7, name: "Lisa Anderson", role: "Employee" },
   ]);
 
   const markAttendance = (id: number, status: "present" | "absent") => {

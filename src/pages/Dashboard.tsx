@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 const Dashboard = () => {
   // Mock data - in a real app, this would come from a backend
   const stats = {
-    totalPeople: 48,
+    totalPeople: 49,
     presentToday: 42,
-    absentToday: 6,
-    attendanceRate: 87.5,
+    absentToday: 7,
+    attendanceRate: 85.7,
   };
 
   const recentActivity = [
